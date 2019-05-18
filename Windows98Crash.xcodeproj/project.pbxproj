@@ -7,13 +7,23 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		7A100774228DA3C70028DD34 /* DesktopViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A100773228DA3C70028DD34 /* DesktopViewController.swift */; };
+		7A100776228DA8470028DD34 /* Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A100775228DA8470028DD34 /* Model.swift */; };
+		7A100778228DA8770028DD34 /* WindowsError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A100777228DA8770028DD34 /* WindowsError.swift */; };
+		7A10077A228DAB800028DD34 /* BtnBackgroundImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A100779228DAB800028DD34 /* BtnBackgroundImage.swift */; };
+		7A10077C228DB0AF0028DD34 /* start.wav in Resources */ = {isa = PBXBuildFile; fileRef = 7A10077B228DB0AF0028DD34 /* start.wav */; };
+		7A10077E228DF1400028DD34 /* ErrorTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A10077D228DF1400028DD34 /* ErrorTableViewController.swift */; };
+		7A100780228DF1EB0028DD34 /* ImageTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A10077F228DF1EB0028DD34 /* ImageTableViewCell.swift */; };
+		7A100782228DF1F60028DD34 /* TextTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A100781228DF1F60028DD34 /* TextTableViewCell.swift */; };
 		7A5B55B1228C99050083F1CB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A5B55B0228C99050083F1CB /* AppDelegate.swift */; };
-		7A5B55B3228C99050083F1CB /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A5B55B2228C99050083F1CB /* ViewController.swift */; };
 		7A5B55B6228C99050083F1CB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7A5B55B4228C99050083F1CB /* Main.storyboard */; };
-		7A5B55B8228C99060083F1CB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7A5B55B7228C99060083F1CB /* Assets.xcassets */; };
-		7A5B55BB228C99060083F1CB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7A5B55B9228C99060083F1CB /* LaunchScreen.storyboard */; };
-		7A5B55C6228C99060083F1CB /* Windows98CrashTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A5B55C5228C99060083F1CB /* Windows98CrashTests.swift */; };
-		7A5B55D1228C99060083F1CB /* Windows98CrashUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A5B55D0228C99060083F1CB /* Windows98CrashUITests.swift */; };
+		7A702EB3228CB1AF00264F28 /* CrashViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A702EB2228CB1AF00264F28 /* CrashViewController.swift */; };
+		7AFA1BEC228C9F5E00D80927 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7AFA1BEB228C9F5E00D80927 /* Assets.xcassets */; };
+		7AFA1BF0228CA0EF00D80927 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7AFA1BEF228CA0EF00D80927 /* LaunchScreen.storyboard */; };
+		7AFA1BF2228CA18000D80927 /* StartupViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7AFA1BF1228CA18000D80927 /* StartupViewController.swift */; };
+		7AFA1BF7228CA5B400D80927 /* shutdown.wav in Resources */ = {isa = PBXBuildFile; fileRef = 7AFA1BF4228CA5B300D80927 /* shutdown.wav */; };
+		7AFA1BF8228CA5B400D80927 /* startup.wav in Resources */ = {isa = PBXBuildFile; fileRef = 7AFA1BF5228CA5B400D80927 /* startup.wav */; };
+		7AFA1BF9228CA5B400D80927 /* critical.wav in Resources */ = {isa = PBXBuildFile; fileRef = 7AFA1BF6228CA5B400D80927 /* critical.wav */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,19 +44,27 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		7A100773228DA3C70028DD34 /* DesktopViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DesktopViewController.swift; sourceTree = "<group>"; };
+		7A100775228DA8470028DD34 /* Model.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Model.swift; sourceTree = "<group>"; };
+		7A100777228DA8770028DD34 /* WindowsError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WindowsError.swift; sourceTree = "<group>"; };
+		7A100779228DAB800028DD34 /* BtnBackgroundImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BtnBackgroundImage.swift; sourceTree = "<group>"; };
+		7A10077B228DB0AF0028DD34 /* start.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = start.wav; path = "../../../../../Downloads/windows_classic_sounds_for_xp_by_graywz_d315cb3/Windows Classic/Windows 98/start.wav"; sourceTree = "<group>"; };
+		7A10077D228DF1400028DD34 /* ErrorTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ErrorTableViewController.swift; sourceTree = "<group>"; };
+		7A10077F228DF1EB0028DD34 /* ImageTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageTableViewCell.swift; sourceTree = "<group>"; };
+		7A100781228DF1F60028DD34 /* TextTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextTableViewCell.swift; sourceTree = "<group>"; };
 		7A5B55AD228C99050083F1CB /* Windows98Crash.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Windows98Crash.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7A5B55B0228C99050083F1CB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		7A5B55B2228C99050083F1CB /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		7A5B55B5228C99050083F1CB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		7A5B55B7228C99060083F1CB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		7A5B55BA228C99060083F1CB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		7A5B55BC228C99060083F1CB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		7A5B55C1228C99060083F1CB /* Windows98CrashTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Windows98CrashTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		7A5B55C5228C99060083F1CB /* Windows98CrashTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Windows98CrashTests.swift; sourceTree = "<group>"; };
-		7A5B55C7228C99060083F1CB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		7A5B55CC228C99060083F1CB /* Windows98CrashUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Windows98CrashUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		7A5B55D0228C99060083F1CB /* Windows98CrashUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Windows98CrashUITests.swift; sourceTree = "<group>"; };
-		7A5B55D2228C99060083F1CB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7A702EB2228CB1AF00264F28 /* CrashViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CrashViewController.swift; sourceTree = "<group>"; };
+		7AFA1BEB228C9F5E00D80927 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Assets.xcassets; path = Windows98Crash/Assets.xcassets; sourceTree = SOURCE_ROOT; };
+		7AFA1BEF228CA0EF00D80927 /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = LaunchScreen.storyboard; sourceTree = "<group>"; };
+		7AFA1BF1228CA18000D80927 /* StartupViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StartupViewController.swift; sourceTree = "<group>"; };
+		7AFA1BF4228CA5B300D80927 /* shutdown.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = shutdown.wav; path = Windows98Crash/songs/shutdown.wav; sourceTree = SOURCE_ROOT; };
+		7AFA1BF5228CA5B400D80927 /* startup.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = startup.wav; path = Windows98Crash/songs/startup.wav; sourceTree = SOURCE_ROOT; };
+		7AFA1BF6228CA5B400D80927 /* critical.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = critical.wav; path = Windows98Crash/songs/critical.wav; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -78,8 +96,6 @@
 			isa = PBXGroup;
 			children = (
 				7A5B55AF228C99050083F1CB /* Windows98Crash */,
-				7A5B55C4228C99060083F1CB /* Windows98CrashTests */,
-				7A5B55CF228C99060083F1CB /* Windows98CrashUITests */,
 				7A5B55AE228C99050083F1CB /* Products */,
 			);
 			sourceTree = "<group>";
@@ -98,31 +114,57 @@
 			isa = PBXGroup;
 			children = (
 				7A5B55B0228C99050083F1CB /* AppDelegate.swift */,
-				7A5B55B2228C99050083F1CB /* ViewController.swift */,
-				7A5B55B4228C99050083F1CB /* Main.storyboard */,
-				7A5B55B7228C99060083F1CB /* Assets.xcassets */,
-				7A5B55B9228C99060083F1CB /* LaunchScreen.storyboard */,
 				7A5B55BC228C99060083F1CB /* Info.plist */,
+				7AFA1BF3228CA4FB00D80927 /* songs */,
+				7A5B55E0228C99B50083F1CB /* model */,
+				7A5B55DE228C99440083F1CB /* view */,
+				7A5B55DF228C99870083F1CB /* controller */,
 			);
 			path = Windows98Crash;
 			sourceTree = "<group>";
 		};
-		7A5B55C4228C99060083F1CB /* Windows98CrashTests */ = {
+		7A5B55DE228C99440083F1CB /* view */ = {
 			isa = PBXGroup;
 			children = (
-				7A5B55C5228C99060083F1CB /* Windows98CrashTests.swift */,
-				7A5B55C7228C99060083F1CB /* Info.plist */,
+				7AFA1BEB228C9F5E00D80927 /* Assets.xcassets */,
+				7AFA1BEF228CA0EF00D80927 /* LaunchScreen.storyboard */,
+				7A5B55B4228C99050083F1CB /* Main.storyboard */,
 			);
-			path = Windows98CrashTests;
+			path = view;
 			sourceTree = "<group>";
 		};
-		7A5B55CF228C99060083F1CB /* Windows98CrashUITests */ = {
+		7A5B55DF228C99870083F1CB /* controller */ = {
 			isa = PBXGroup;
 			children = (
-				7A5B55D0228C99060083F1CB /* Windows98CrashUITests.swift */,
-				7A5B55D2228C99060083F1CB /* Info.plist */,
+				7A10077D228DF1400028DD34 /* ErrorTableViewController.swift */,
+				7A10077F228DF1EB0028DD34 /* ImageTableViewCell.swift */,
+				7A100781228DF1F60028DD34 /* TextTableViewCell.swift */,
+				7AFA1BF1228CA18000D80927 /* StartupViewController.swift */,
+				7A702EB2228CB1AF00264F28 /* CrashViewController.swift */,
+				7A100773228DA3C70028DD34 /* DesktopViewController.swift */,
 			);
-			path = Windows98CrashUITests;
+			path = controller;
+			sourceTree = "<group>";
+		};
+		7A5B55E0228C99B50083F1CB /* model */ = {
+			isa = PBXGroup;
+			children = (
+				7A100775228DA8470028DD34 /* Model.swift */,
+				7A100777228DA8770028DD34 /* WindowsError.swift */,
+				7A100779228DAB800028DD34 /* BtnBackgroundImage.swift */,
+			);
+			path = model;
+			sourceTree = "<group>";
+		};
+		7AFA1BF3228CA4FB00D80927 /* songs */ = {
+			isa = PBXGroup;
+			children = (
+				7A10077B228DB0AF0028DD34 /* start.wav */,
+				7AFA1BF6228CA5B400D80927 /* critical.wav */,
+				7AFA1BF4228CA5B300D80927 /* shutdown.wav */,
+				7AFA1BF5228CA5B400D80927 /* startup.wav */,
+			);
+			path = songs;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -229,8 +271,12 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7A5B55BB228C99060083F1CB /* LaunchScreen.storyboard in Resources */,
-				7A5B55B8228C99060083F1CB /* Assets.xcassets in Resources */,
+				7AFA1BF8228CA5B400D80927 /* startup.wav in Resources */,
+				7AFA1BF0228CA0EF00D80927 /* LaunchScreen.storyboard in Resources */,
+				7AFA1BF9228CA5B400D80927 /* critical.wav in Resources */,
+				7AFA1BEC228C9F5E00D80927 /* Assets.xcassets in Resources */,
+				7A10077C228DB0AF0028DD34 /* start.wav in Resources */,
+				7AFA1BF7228CA5B400D80927 /* shutdown.wav in Resources */,
 				7A5B55B6228C99050083F1CB /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -256,8 +302,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7A5B55B3228C99050083F1CB /* ViewController.swift in Sources */,
+				7A100776228DA8470028DD34 /* Model.swift in Sources */,
+				7AFA1BF2228CA18000D80927 /* StartupViewController.swift in Sources */,
+				7A10077E228DF1400028DD34 /* ErrorTableViewController.swift in Sources */,
+				7A100780228DF1EB0028DD34 /* ImageTableViewCell.swift in Sources */,
+				7A100782228DF1F60028DD34 /* TextTableViewCell.swift in Sources */,
+				7A702EB3228CB1AF00264F28 /* CrashViewController.swift in Sources */,
 				7A5B55B1228C99050083F1CB /* AppDelegate.swift in Sources */,
+				7A10077A228DAB800028DD34 /* BtnBackgroundImage.swift in Sources */,
+				7A100778228DA8770028DD34 /* WindowsError.swift in Sources */,
+				7A100774228DA3C70028DD34 /* DesktopViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -265,7 +319,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7A5B55C6228C99060083F1CB /* Windows98CrashTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -273,7 +326,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7A5B55D1228C99060083F1CB /* Windows98CrashUITests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -299,14 +351,6 @@
 				7A5B55B5228C99050083F1CB /* Base */,
 			);
 			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		7A5B55B9228C99060083F1CB /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				7A5B55BA228C99060083F1CB /* Base */,
-			);
-			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
